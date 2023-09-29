@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href= "css/materialize.min.css">
+   <!-- <link rel="stylesheet" href="style.css"> -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+
+    <title>Help Center</title>
+</head>
+<body background="red lighten-4">
+
+  <nav class="nav-wrapper pink-lighten-5">
+    <div class="container">
+            <a href="#" class= " brand-logo black-text center"><h5><span>Help Center</span></h5></a>
+            <a href="#" class="sidenav-trigger left" data-target="mobile-links">
+                 <i class="material-Icons black-text">menu</i>
+            </a>
+                 <ul class="right hide-on-med-and-down">
+                         <li class="card-action waves-effect waves-light "><a href="/Prelim_Website_Perez/index.html" class="black-text">Home</a></li>
+                         <li class="card-action waves-effect waves-light "><a href="/Prelim_Website_Perez/about.html" class="black-text">About Us</a></li> 
+                 </ul>
+    </div>  
+</nav>
+<ul class="sidenav #f48fb1" id="mobile-links">
+    <li><a href="/index.html"><i class="material-icons Black-text">home</i>Home</a></li>
+    <li><a href="/about.html"><i class="material-icons Black-text">help</i>About</a></li>
+  </ul>
+  
+<div>
+    <ul class="collapsible popout">
+        <li>
+          <div class="collapsible-header red lighten-5 active"><h5>How to order?</h5></div>
+          <div class="collapsible-body">
+           <p>
+            DM or Direct Message us on our Facebook account/page and send us a screenshot or the name of a product that you want to order. Thank you!!!
+          </p>
+        </div>
+        </li>
+      </div>
+<div>
+    <ul class="collapsible popout">
+      <li>
+        <div class="collapsible-header red lighten-5 active"><h5>What to do if the order has not yet arrived?</h5></div>
+        <div class="collapsible-body">
+         <p>
+          Kindly message us on our facebook account. Thank you!
+        </p>
+  </div>
+      </li>      
+</div>
+<script src= "js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+<script>
+      $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+</script>
+<script>
+  $(document).ready(function(){
+$('.collapsible').collapsible();
+});
+</script>
+</body>
+</html>
